@@ -1,0 +1,39 @@
+
+
+.popup__content {
+    width: 250px;
+    height: 100px;
+    color: #eee;
+    position: relative;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+
+.popup__close {
+    position: absolute;
+    color: #000;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+
+
+.popup__wordbutton {
+    margin-right: 10px;
+    border: none;
+    background-color: #fff;
+    font-size: 25px;
+
+}
+
+.popup__wordbutton:hover {
+    background-color: #eee;
+    cursor: pointer;
+}

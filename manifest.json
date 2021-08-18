@@ -1,0 +1,22 @@
+{
+    "name": "Change word extension - simple version",
+    "description": "This is my first chrome extension",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches" : ["<all_urls>"],
+            "js": ["Content.js"],
+            "css": ["Content.css", "Popup.css"]
+        }
+    ],
+    "action" : {
+        "default_popup": "Popup.html"
+    },
+    "permissions" : [
+        "activeTab",
+        "tabs",
+        "storage",
+        "scripting"
+    ]
+}
